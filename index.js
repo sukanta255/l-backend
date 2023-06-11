@@ -55,7 +55,7 @@ app.use("/admin/userdetail" , admin_userlist_routes)
 
 
 app.get("/", (req, res) => {
-    
+    res.send("Homepage")
 })
 
 
