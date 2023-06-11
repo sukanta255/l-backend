@@ -17,3 +17,12 @@ const Admin_Authenticated_schema = mongoose.Schema({
 const Admin_authenticated_modal = mongoose.model('Admin_collection', Admin_Authenticated_schema)
 
 module.exports = { Admin_authenticated_modal }
+
+// {
+//     "profile_img" : "https://www.pandasecurity.com/en/mediacenter/src/uploads/2013/11/pandasecurity-facebook-photo-privacy.jpg",
+//     "name": "Abc123",
+//     "email": "abc123@gmail.com",
+//     "password": "A@bc123",
+//     "gender": "Male",
+//     "maritalStatus": "Single"
+// }
